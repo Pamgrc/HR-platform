@@ -1,0 +1,27 @@
+# Funciones PHP del Proyecto
+
+## Funciones de Solicitudes de Vacaciones
+
+### `aprobar_solicitud()`
+
+Esta función aprueba una solicitud de vacaciones al actualizar el estado en la base de datos.
+
+**Parámetros**:
+- `$_POST['solicitud_id']`: ID de la solicitud a aprobar.
+
+### `rechazar_solicitud()`
+
+Esta función rechaza una solicitud de vacaciones.
+
+**Parámetros**:
+- `$_POST['solicitud_id']`: ID de la solicitud a rechazar.
+
+## Funciones de Gestión de Empleados
+
+### `actualizar_informacion_personal()`
+
+Actualiza la información personal de un empleado en la base de datos.
+
+**Parámetros**:
+- `$_POST['empleado_id']`: ID del empleado.
+- Otros campos relacionados con la información personal (nombre, apellido, dirección, etc.).
